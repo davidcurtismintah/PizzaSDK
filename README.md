@@ -1,27 +1,30 @@
 # Project Title
 
-One Paragraph of project description goes here
+An SDK that could be easily integrated into any app and would offers pizza delivery
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the SDK up and running in your project
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Add the jitpack.io repository to your root build.gradle at the end of repositories:
 
 ```
-Give examples
+allprojects {
+ repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
+ }
+}
 ```
 
-### Installing
+### Usage
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+To start flavor selection, add this line:
 
 ```
-Give the example
+startActivity(MainActivity.getStartIntent(this))
 ```
 
 And repeat

@@ -3,7 +3,7 @@
           package="com.allow.sdk">
 
     <application>
-        <activity android:name=".MainActivity">
+        <activity android:name=".PizzaSdkActivity">
         </activity>
     </application>
 

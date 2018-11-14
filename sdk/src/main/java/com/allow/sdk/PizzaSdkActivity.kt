@@ -8,7 +8,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.allow.sdk.ui.main.*
 
-class MainActivity : AppCompatActivity(), StartOrderFragment.MainFragmentInteractionListener,
+class PizzaSdkActivity : AppCompatActivity(), StartOrderFragment.MainFragmentInteractionListener,
     FirstFlavorSelectionFragment.FlavorSelectionFragmentInteractionListener,
     SecondFlavorSelectionFragment.AddFlavorFragmentInteractionListener,
     ViewOrderFragment.ViewOrderFragmentInteractionListener {
@@ -49,6 +49,6 @@ class MainActivity : AppCompatActivity(), StartOrderFragment.MainFragmentInterac
         /**
          * Creates an intent to be used with [startActivity][android.app.Activity.startActivity]
          * */
-        fun getStartIntent(context: Context) = Intent(context, MainActivity::class.java)
+        fun getStartIntent(context: Context) = Intent(context, PizzaSdkActivity::class.java)
     }
 }
