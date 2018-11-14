@@ -34,4 +34,7 @@ startActivity(PizzaSdkActivity.getStartIntent(this))
 
 ```
 
-Also see the sample app included for an example
+Follow the prompts that follow from flavor selection to checking costs.
+
+
+You may see the sample app included in this repository for an example
