@@ -1,9 +1,8 @@
 package com.allow.pizzasdk
 
 import android.os.Bundle
-import android.support.design.widget.Snackbar
-import android.support.v7.app.AppCompatActivity;
-import com.allow.sdk.MainActivity
+import android.support.v7.app.AppCompatActivity
+import com.allow.sdk.PizzaSdkActivity
 
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -15,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
-            startActivity(MainActivity.getStartIntent(this))
+            startActivity(PizzaSdkActivity.getStartIntent(this))
         }
     }
 

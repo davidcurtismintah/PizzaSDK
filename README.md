@@ -24,7 +24,7 @@ allprojects {
 To start flavor selection, add this line:
 
 ```
-startActivity(MainActivity.getStartIntent(this))
+startActivity(PizzaSdkActivity.getStartIntent(this))
 ```
 
 And repeat
