@@ -19,16 +19,16 @@ allprojects {
 }
 ```
 
+Now add the PizzaSDK dependency to your app level build.gradle file:
+
+```
+implementation 'com.github.davidcurtismintah:PizzaSDK:1.0'
+```
+
 ### Usage
 
 To start flavor selection, add this line:
 
 ```
 startActivity(PizzaSdkActivity.getStartIntent(this))
-```
-
-And repeat
-
-```
-until finished
 ```
