@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Main Pizza SDK</string>
+    <string name="empty_flavor_text">Please tap on PICK to choose a flavor</string>
+    <string name="select_flavor_dialog_title">Select Flavor</string>
+    <string name="pizza_description">%1$s pizza</string>
+</resources>
