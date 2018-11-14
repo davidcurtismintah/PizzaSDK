@@ -1,4 +1,4 @@
-# Project Title
+# Friendly Pizza SDK
 
 An SDK that could be easily integrated into any app and would offers pizza delivery
 
