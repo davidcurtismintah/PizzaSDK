@@ -27,8 +27,11 @@ implementation 'com.github.davidcurtismintah:PizzaSDK:1.0'
 
 ### Usage
 
-To start flavor selection, add this line:
+To start flavor selection, add this line in a context such as an activity or fragment:
 
 ```
 startActivity(PizzaSdkActivity.getStartIntent(this))
+
 ```
+
+Also see the sample app included for an example
